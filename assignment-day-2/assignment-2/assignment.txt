@@ -1,0 +1,1 @@
+Create an array. Remove 3 elements starting from index 4, and insert 5 new elements at that position using the appropriate method.

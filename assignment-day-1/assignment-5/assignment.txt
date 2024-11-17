@@ -1,0 +1,4 @@
+Write a function scopingExample() that demonstrates the following:
+1. A global variable x accessible throughout the script.	
+2. A local variable x inside a function that shadows the global variable.
+3. A block-level variable x that is scoped to an if block inside the function.

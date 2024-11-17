@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Assignment 4</h1>
+    <p>
+      How do var, let, and const differ in terms of scope and hoisting? Write a
+      code differentiating them.
+    </p>
+    <p>
+      The difference between var, let, and const in terms of scope and hoisting
+      are as follows:
+    </p>
+    <p>Scope:</p>
+    <ul>
+      <li>
+        var is function-scoped or globally-scoped. It does not have block scope.
+      </li>
+      <li>
+        let and const are block-scoped, meaning they are only accessible within
+        the block they are defined.
+      </li>
+    </ul>
+    <p>Hoisting:</p>
+    <ul>
+      <li>
+        var declarations are hoisted to the top of their scope and initialized
+        with undefined.
+      </li>
+      <li>
+        let and const are hoisted to the top of their block but are not
+        initialized. Accessing them before declaration results in a
+        ReferenceError.
+      </li>
+    </ul>
+    <p>Reassignment:</p>
+    <ul>
+      <li>var can be re-assigned and re-declared.</li>
+      <li>const cannot be re-assigned or re-declared.</li>
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>

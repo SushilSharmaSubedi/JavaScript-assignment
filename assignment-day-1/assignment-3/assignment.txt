@@ -1,0 +1,3 @@
+What is the difference between function scoping and block scoping. Write a code for differentiating them.
+
+

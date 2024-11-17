@@ -1,0 +1,1 @@
+Write the code to convert celsius to fahrenheit and fahrenheit to celsius and console the output.

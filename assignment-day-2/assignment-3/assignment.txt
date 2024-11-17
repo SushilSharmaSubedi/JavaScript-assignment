@@ -1,0 +1,6 @@
+Create an array.
+1. Remove first element
+2. Remove last element
+3. Add new element at the beginning
+4. Add a new element at the end
+5.Console log all the arrays along with the original modified array.
