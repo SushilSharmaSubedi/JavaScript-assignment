@@ -1,0 +1,10 @@
+Create a DOM structure using JS
+<div class="wrapper">
+	<div class="box">box</div>
+</div>
+
+1. The box should have background color
+2. The text ‘box’ should be centered both horizontally and vertically
+3. The box should animate left and right of the wrapper
+4. Once box touches the right screen/wrapper it should rebound back to the left
+5. Once box touches the left screen/wrapper it should rebound back to the right.
