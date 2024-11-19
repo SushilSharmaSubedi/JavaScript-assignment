@@ -1,0 +1,1 @@
+Create a stop-watch with start, pause and reset features.
