@@ -1,0 +1,8 @@
+Assignment.
+1. Create two square boxes that rotates by 90 deg when comes in a viewport.
+   a. One will rotate only once
+   b. Second will rotate in every appearance.
+
+
+
+
