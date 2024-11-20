@@ -9,6 +9,18 @@
   <body>
     <p>Resize the window to see the effect</p>
     <p>This is a debouncing example.</p>
+    <xpm>
+      <pre>
+        let resizeTimeout;
+
+window.addEventListener("resize", function () {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(function () {
+    console.log("Window is resized");
+  }, 300);
+        });
+      </pre>
+    </xpm>
     <script src="script.js"></script>
   </body>
 </html>

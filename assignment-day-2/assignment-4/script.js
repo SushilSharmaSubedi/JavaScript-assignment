@@ -8,7 +8,9 @@ originalArray.push(6); // Adds a new element to the original array
 let multipliedArray = originalArray.map((num) => num * 5);
 
 // 3. Find the maximum number of the new array
-let maxNumber = Math.max(...multipliedArray);
+let maxNumber = multipliedArray.reduce((max, current) =>
+  current > max ? current : max
+);
 
 // 4. List out the even numbers of both new and original arrays
 let evenNumbersOriginal = originalArray.filter((num) => num % 2 === 0);
