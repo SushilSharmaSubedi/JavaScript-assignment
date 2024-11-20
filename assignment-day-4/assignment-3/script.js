@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const button = document.getElementById("myButton");
   const counter = document.querySelector(".counter");
 
-  // Throttle function
   function throttle(func, limit) {
     let lastFunc;
     let lastRan;
@@ -24,14 +23,12 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   }
 
-  // Increment function
   const incrementCounter = () => {
     counter.textContent = parseInt(counter.textContent) + 1;
     console.log("Button Clicked!");
   };
 
-  // Apply throttling to the increment function
-  const throttledIncrement = throttle(incrementCounter, 1000); // 1000ms = 1 second
+  const throttledIncrement = throttle(incrementCounter, 1000);
 
   button.addEventListener("click", throttledIncrement);
 });
