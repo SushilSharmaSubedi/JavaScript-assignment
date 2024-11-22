@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper {
+  width: 600px;
+  height: fit-content;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.card-image {
+  height: 300px;
+  width: auto;
+  overflow: hidden;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
